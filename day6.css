@@ -1,0 +1,48 @@
+body{
+    font-size: 30px;
+
+}
+/* div{
+    background-color: rgb(18, 171, 120);
+    border-inline-end-style: none;
+    margin-top: 10px;
+    width: 80px;
+    width: 100px;
+    margin: 30px 50px 30px 40px;
+    transform: rotate(0deg);
+transition-duration: 2s; 
+
+}*/
+/* div:hover{
+    color: red;
+    width: 50px;
+} */
+.f::first-letter{
+    color: rgb(40, 30, 152);
+
+}
+.c:hover{
+    transform:scaleY(40px);
+    transition-duration: 2s;
+}
+.f:hover{
+    transform:rotate(60deg);
+    transition-duration: 2s;
+}
+
+.esraa{
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    overflow:scroll;
+    animation:an1 2s ease  2 ;
+}
+@keyframes an1{
+    from{background-color: aqua;}
+    to{background-color: brown;}
+}
+
+.grid{
+    display: grid;
+    
+}
